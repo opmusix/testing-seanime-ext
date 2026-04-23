@@ -2,7 +2,7 @@
     "id": "anilist-watch-order",
     "name": "Anilist Watch Order Enhanced",
     "version": "2.2.0",
-    "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Watch%20Order/anilist-watch-order.json",
+    "manifestURI": "https://raw.githubusercontent.com/opmusix/testing-seanime-ext/main/anilist-watch-order.json",
     "language": "typescript",
     "type": "plugin",
     "description": "Enhanced Anilist watch order with draggable nodes, box/line colors, persistent layout across sessions and restarts, and lock mode.",
@@ -10,8 +10,7 @@
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Watch%20Order/icon.png",
     "website": "https://github.com/nnotwen/n-seanime-extensions",
     "lang": "en",
-    "payloadURI": "put the path to provider.ts",
-    "isDevelopment": true,
+    "payloadURI": "https://raw.githubusercontent.com/opmusix/testing-seanime-ext/main/provider.ts",
     "plugin": {
         "version": "1",
         "permissions": {
