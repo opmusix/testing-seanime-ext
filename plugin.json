@@ -1,0 +1,7 @@
+{
+  "id": "anilist-watch-order",
+  "name": "Anilist Watch Order Enhanced",
+  "version": "2.2.0",
+  "description": "Enhanced Anilist watch order with draggable nodes, box/line colors, persistent layout across sessions and restarts, and lock mode.",
+  "author": "nnotwen (enhanced)"
+}

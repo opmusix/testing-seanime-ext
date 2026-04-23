@@ -1,0 +1,33 @@
+{
+    "id": "anilist-watch-order",
+    "name": "Anilist Watch Order Enhanced",
+    "version": "2.2.0",
+    "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Watch%20Order/anilist-watch-order.json",
+    "language": "typescript",
+    "type": "plugin",
+    "description": "Enhanced Anilist watch order with draggable nodes, box/line colors, persistent layout across sessions and restarts, and lock mode.",
+    "author": "nnotwen (enhanced)",
+    "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Anilist%20Watch%20Order/icon.png",
+    "website": "https://github.com/nnotwen/n-seanime-extensions",
+    "lang": "en",
+    "payloadURI": "put the path to provider.ts",
+    "isDevelopment": true,
+    "plugin": {
+        "version": "1",
+        "permissions": {
+            "scopes": [
+                "storage"
+            ],
+            "allow": {
+                "networkAccess": {
+                    "allowedDomains": [
+                        "graphql.anilist.co",
+                        "unpkg.com",
+                        "*.unpkg.com"
+                    ],
+                    "reasoning": "Required to fetch anime relation data from AniList and load vis-network/dagre visualization libraries"
+                }
+            }
+        }
+    }
+}
